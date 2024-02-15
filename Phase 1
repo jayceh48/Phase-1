@@ -1,0 +1,31 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+class Account {
+public:
+  // ... (members and placeholder functions)
+};
+
+class Transaction {
+public:
+  // ... (members and constructor)
+};
+
+class User {
+public:
+  // ... (members and placeholder functions)
+};
+
+int main() {
+  // Create dummy accounts and user for illustration
+  Account account1("12345", "John Doe", "Checking", 1000.0);
+  Transaction transaction1(1, "2024-02-15", "Deposit", 500.0);
+  User user1("johndoe", "password123");
+  account1.deposit(transaction1); // Placeholder call
+  user1.addAccount(&account1); // Placeholder call
+
+  // ... (further code using classes and operator overloading)
+
+  return 0;
+}
